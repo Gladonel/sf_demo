@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>SiftFox - Desk Phone</title>
+	<meta name="description" content="" />
+	<meta name="Author" content="Hai Minh Vu" />
+
+	<!-- mobile settings -->
+	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+	<!-- WEB FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" rel="stylesheet" type="text/css" />
+
+	<!-- CORE CSS -->
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- THEME CSS -->
+	<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+	<!-- ICON -->
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+	<!-- PAGE LEVEL STYLES -->
+	<link href="assets/css/layout-datatables.css" rel="stylesheet" type="text/css" />
+</head>
+	<!--
+		.boxed = boxed version
+	-->
+	<body class="smoothscroll enable-animation">
+
+
+		<!-- WRAPPER -->
+		<div id="wrapper">
+
+			<aside id="aside">
+
+				<nav id="sideNav"><!-- MAIN MENU -->
+					<ul class="nav nav-list">
+						<li><!-- dashboard -->
+							<a class="dashboard" href="index.html"><!-- warning - url used by default by ajax (if eneabled) -->
+								<i class="main-icon fa fa-dashboard"></i> <span>Dashboard</span>
+							</a>
+						</li>
+						<li class="active">
+							<a href="#">
+								<i class="fa fa-angle-right pull-right"></i>
+								<i class="main-icon fa fa-gears"></i> <span>Services</span>
+							</a>
+							<ul><!-- submenus -->
+								<li><a href="page-mds.html">Bloomberg Terminal</a></li>
+								<li><a href="page-hardware.html">Virtual Desktop</a></li>
+								<li><a href="page-software.html">Software</a></li>
+								<li><a href="page-turrets.html">IPC Dealerboard</a></li>
+								<li class="active"><a href="page-deskphone.html">Desk Phone</a></li>
+								<li><a href="page-mobilephone.html">Mobile Phone</a></li>
+							</ul>
+						</li>
+						<!--<li>
+							<a href="#">
+								<i class="main-icon fa fa-bar-chart"></i> <span>Reports</span>
+							</a>
+						</li>-->
+					</ul>
+
+				</nav>
+
+				<span id="asidebg"><!-- aside fixed background --></span>
+			</aside>
+			<!-- /ASIDE -->
+
+
+			<!-- HEADER -->
+			<header id="header">
+
+				<!-- Mobile Button -->
+				<button id="mobileMenuBtn"></button>
+
+				<!-- Logo -->
+				<span class="logo pull-left">
+					<img src="assets/images/logo_with_text.png" alt="admin panel" height="20" style="margin-top:5px;" />
+				</span>
+
+				<!--<form method="get" action="page-search.html" class="search pull-left hidden-xs">
+					<input type="text" class="form-control" name="k" placeholder="Search for something..." />
+				</form>-->
+
+				<nav>
+
+					<!-- OPTIONS LIST -->
+					<ul class="nav pull-right">
+
+						<!-- USER OPTIONS -->
+						<li class="dropdown pull-left">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+								<img class="user-avatar" alt="" src="assets/images/avatars/adam.png" height="34" />
+								<span class="user-name">
+									<span class="hidden-xs">
+										Adam Mayer <i class="fa fa-angle-down"></i>
+									</span>
+								</span>
+							</a>
+							<ul class="dropdown-menu hold-on-click">
+								<li><!-- my inbox -->
+									<a href="#"><i class="fa fa-envelope"></i> Inbox
+										<span class="pull-right label label-danger">5</span>
+									</a>
+								</li>
+								<li><!-- settings -->
+									<a href="#"><i class="fa fa-cogs"></i> Settings</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li><!-- lockscreen -->
+									<a href="page-lock.html"><i class="fa fa-lock"></i> Lock</a>
+								</li>
+								<li><!-- logout -->
+									<a href="page-login.html"><i class="fa fa-power-off"></i> Log Out</a>
+								</li>
+							</ul>
+						</li>
+						<!-- /USER OPTIONS -->
+
+					</ul>
+					<!-- /OPTIONS LIST -->
+
+				</nav>
+
+			</header>
+			<!-- /HEADER -->
+
+
+			<!--
+				MIDDLE
+			-->
+			<section id="middle">
+
+				<!-- page title -->
+				<div id="page-header" class="clearfix">
+					<div class="page-header">
+						<h1>Desk Phone Information</h1>
+						<ol class="breadcrumb">
+							<li><a href="#">Services</a></li>
+							<li class="active">Desk Phone</li>
+						</ol>
+					</div>
+
+					<div class="header-stats">
+						<div class="spark clearfix">
+							<div class="spark-info"><span class="number">1</span>Removals</div>
+						</div>
+						<div class="spark clearfix">
+							<div class="spark-info"><span class="number">$1,800</span>Saved</div>
+						</div>
+					</div>
+				</div>
+				<!-- /page title -->
+
+
+				<div id="content" class="padding-20">
+					<!-- DID YOU KNOW -->
+					<div class="panel panel-default">
+						<div class="panel-body text-center">
+							<div class="owl-carousel nomargin" data-plugin-options='{"singleItem": true, "autoPlay": true}'>
+								<div><p class="margin-bottom-10">SiftFox has a 1 desk phone line policy unless justification is valid.</p></div>
+								<div><p class="margin-bottom-10">Actively managing desk phone usage and lines directly impacts spend rates and forecasting.</p></div>
+								<div><p class="margin-bottom-10">Cost savings are reflected in the next cycle.</p></div>
+							</div>
+						</div>
+					</div>
+
+					<!--<div class="panel panel-default">
+						<div class="panel-body text-center">
+							<h4 class="margin-bottom-10">Total Financial Footprint</h4>
+							<h3 class="margin-bottom-10"><span id="cost-impact" class="number size-25">$1,000.00</span></h3>
+						</div>
+					</div>-->
+
+					<div id="panel-1" class="panel panel-default">
+						<div class="panel-heading box-primary">
+							<span class="title elipsis">
+								<strong>Your Desk Phone</strong> <!-- panel title -->
+							</span>
+
+							<!-- right options -->
+							<ul class="options pull-right list-inline">
+								<li><a href="#" class="opt panel_colapse" data-toggle="tooltip" title="Colapse" data-placement="bottom"></a></li>
+								<li><a href="#" class="opt panel_fullscreen hidden-xs" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"><i class="fa fa-expand"></i></a></li>
+							</ul>
+							<!-- /right options -->
+
+						</div>
+
+						<!-- panel content -->
+						<div class="panel-body">
+							<table class="table table-striped table-bordered table-hover dataTable display responsive assetTable" id="hw-table">
+								<thead>
+									<tr>
+										<th class="table-checkbox">
+											<input type="checkbox" class="group-checkable" data-set="#hw-table .checkboxes"/>
+										</th>
+										<th>Desk Phone #</th>
+										<th>Type</th>
+										<th>Cost</th>
+										<th class="hidden-xs">Last Active Date</th>
+										<th>Removal Requested</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><input type="checkbox" class="checkboxes" name="chk" value=""/><input type="hidden" value="1188.00" /></td>
+										<td class="no-wrap">(212) 555-4444</td>
+										<td>Cisco</td>
+										<td class="text-right">$1,188.00</td>
+										<td class="text-center activity-date hidden-xs" data-history-month="0"><span class="active-date"></span> <i class='glyphicon glyphicon-time'></i></td>
+										<td class="text-center"><span class="label label-warning">No</span></td>
+									</tr>
+									<tr>
+										<td><input type="checkbox" class="checkboxes" name="chk" value="" disabled="disabled"/><input type="hidden" value="1800.00" /></td>
+										<td class="no-wrap">(212) 555-5555</td>
+										<td>Avaya</td>
+										<td class="text-right">$1,800.00</td>
+										<td class="text-center activity-date hidden-xs" data-history-month="1"><span class="active-date"></span> <i class='glyphicon glyphicon-time'></i></td>
+										<td class="text-center"><span class="label label-success">Yes</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div><!-- /panel-body -->
+
+						<div class="panel-footer text-center">
+							<!--
+								.md-4 is used for a responsive purpose only on col-md-4 column.
+								remove .md-4 if you use on a larger column
+							-->
+							<ul class="removalstats list-unstyled text-center">
+								<!--<li class="clearfix">
+									<span class="stat-number">$<span class="countTo" data-speed="2000" data-decimals="2">18125</span></span>
+									<span class="stat-title">Firms-wide</span>
+
+									<i class="et-global size-60 text-success"></i>
+								</li>-->
+								<li class="clearfix">
+									<i class="et-recycle size-30 text-info"></i>
+									<span class="stat-number color-orange"><span class="countTo" data-speed="1000" id="no-items">0</span></span>
+									<span class="stat-title"># of Selected Items</span>
+								</li>
+
+								<li class="clearfix">
+									<i class="et-strategy size-30 text-success"></i>
+									<span class="stat-number color-orange">$<span class="countTo" data-speed="1000" data-decimals="2" id="est-cost">0</span></span>
+									<span class="stat-title">Estimated Cost Impact</span>
+								</li>
+								<!--<li class="clearfix">
+									<span class="stat-number">$<span class="countTo" data-speed="2000" data-decimals="2">1125</span></span>
+									<span class="stat-title">Cost Saved</span>
+
+									<i class="et-wallet size-60 text-info"></i>
+								</li>-->
+							</ul>
+
+							<div class="margin-top-20">
+								<a href="#" class="btn btn-3d btn-reveal btn-green" id="remove-btn">
+									<i class="et-trophy"></i>
+									<span>REMOVE</span>
+								</a>
+							</div>
+						</div><!-- /panel-footer -->
+					</div>
+
+					<div id="panel-2" class="panel panel-default">
+						<div class="panel-heading box-info">
+							<span class="title elipsis">
+								<strong>Your Removal History</strong> <!-- panel title -->
+							</span>
+						</div>
+
+						<!-- panel content -->
+						<div class="panel-body">
+							<ul class="timeline timeline-icons">
+								<li>
+									<p>
+										<span class="wow fadeInRight" data-wow-delay="0.1s">Requested to remove (212) 555-5555 - $1,800.00</span>
+										<span class="timeline-icon wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-recycle color-green"></i></span>
+										<span class="timeline-date wow fadeInUp" data-wow-delay="0.3s" data-history-month="2" data-date-format="MMM DD YYYY, HH:ss"><span class="active-date"></span></span>
+									</p>
+								</li>
+							</ul>
+						</div><!-- /.panel-body -->
+					</div><!-- /#panel-2 -->
+				</div>
+
+				<footer class="main-footer">
+					<div class="pull-right hidden-xs">
+						<b>Version</b> 1.0
+					</div>
+					<strong>Copyright &copy; 2016 <a href="#">SiftFox</a>.</strong> All rights reserved.
+				</footer>
+			</section>
+
+
+			<!-- /MIDDLE -->
+
+		</div>
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="assets/js/app.js"></script>
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<script type="text/javascript">
+
+			loadScript(plugin_path + "datatables/js/jquery.dataTables.min.js", function() {
+				loadScript(plugin_path + "datatables/dataTables.bootstrap.js", function() {
+					loadScript(plugin_path + "select2/js/select2.full.min.js", function() {
+						loadScript(plugin_path + "sweetalert/sweetalert.min.js", function() {
+							loadScript(plugin_path + 'bootstrap.daterangepicker/moment.min.js', function() {
+
+								if (jQuery().dataTable) {
+
+									// Show/Hide Columns
+									function initTable() {
+										var table = jQuery('#hw-table');
+
+										var oTable = table.dataTable({
+											"columnDefs": [{
+												"orderable": false,
+												"targets": [0]
+											}],
+											"order": [
+											[1, 'asc']
+											],
+											"lengthMenu": [
+											[5, 10, 15, 20, -1],
+												[5, 10, 15, 20, "All"] // change per page values here
+												],
+											// set the initial value
+											"pageLength": 5,
+										});
+
+										var tableWrapper = jQuery('#hw-table_wrapper'); // datatable creates the table wrapper by adding with id {your_table_jd}_wrapper
+										var tableColumnToggler = jQuery('#hw-table_column_toggler');
+
+										/* modify datatable control inputs */
+										tableWrapper.find('.dataTables_length select').select2(); // initialize select2 dropdown
+
+										/* handle show/hide columns*/
+										jQuery('input[type="checkbox"]', tableColumnToggler).change(function () {
+											/* Get the DataTables object again - this is not a recreation, just a get of the object */
+											var iCol = parseInt(jQuery(this).attr("data-column"));
+											var bVis = oTable.fnSettings().aoColumns[iCol].bVisible;
+											oTable.fnSetColumnVis(iCol, (bVis ? false : true));
+										});
+
+										table.on('change', 'thead th .group-checkable', function () {
+											var set = jQuery(this).attr("data-set");
+											var checked = jQuery(this).is(":checked");
+											jQuery(set).each(function () {
+												if (checked) {
+													if (!jQuery(this).attr("disabled")) {
+														jQuery(this).prop("checked", true);
+														jQuery(this).parents('tr').addClass("active");
+													}
+												} else {
+													jQuery(this).prop("checked", false);
+													jQuery(this).parents('tr').removeClass("active");
+												}
+											});
+											//jQuery.uniform.update(set);
+											calculateCost('hw-table', null);
+										});
+
+										table.on('change', 'tbody tr .checkboxes', function () {
+											calculateCost('hw-table', this);
+										});
+									}
+
+
+									// Init each table
+									initTable();
+
+								}
+							});
+						});
+					});
+				});
+			});
+		</script>
+	</body>
+	</html>

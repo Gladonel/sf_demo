@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>SiftFox - Error</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Hai Minh Vu" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+		<!-- WEB FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+		<!-- ICON -->
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	</head>
+	<!--
+		.boxed = boxed version
+	-->
+	<body>
+
+
+		<!-- WRAPPER -->
+		<div id="wrapper">
+
+			<!--
+				ASIDE
+				Keep it outside of #wrapper (responsive purpose)
+			-->
+			<aside id="aside">
+				<!--
+					Always open:
+					<li class="active alays-open">
+
+					LABELS:
+						<span class="label label-danger pull-right">1</span>
+						<span class="label label-default pull-right">1</span>
+						<span class="label label-warning pull-right">1</span>
+						<span class="label label-success pull-right">1</span>
+						<span class="label label-info pull-right">1</span>
+				-->
+				<nav id="sideNav"><!-- MAIN MENU -->
+					<ul class="nav nav-list">
+						<li><!-- dashboard -->
+							<a class="dashboard" href="index.html"><!-- warning - url used by default by ajax (if eneabled) -->
+								<i class="main-icon fa fa-dashboard"></i> <span>Dashboard</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-angle-right pull-right"></i>
+								<i class="main-icon fa fa-gears"></i> <span>Services</span>
+							</a>
+							<ul><!-- submenus -->
+								<li><a href="page-software.html">Software</a></li>
+								<li><a href="page-hardware.html">Hardware</a></li>
+								<li><a href="#">Desk Phone</a></li>
+								<li><a href="#">Mobile Phone</a></li>
+								<li><a href="#">Travel &amp; Expenses</a></li>
+								<li><a href="#">WebEx</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-angle-right pull-right"></i>
+								<i class="main-icon fa fa-bar-chart"></i> <span>Reports</span>
+							</a>
+							<ul><!-- submenus -->
+								<li><a href="#">Software</a></li>
+								<li><a href="#">Hardware</a></li>
+								<li><a href="#">Deskphone</a></li>
+								<li><a href="#">Mobile Phone</a></li>
+								<li><a href="#">Travel &amp; Expenses</a></li>
+								<li><a href="#">WebEx</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-angle-right pull-right"></i>
+								<i class="main-icon fa fa-pencil-square-o"></i> <span>Admin</span>
+							</a>
+							<ul><!-- submenus -->
+								<li><a href="#">Manage Users</a></li>
+								<li><a href="#">Manage Jobs</a></li>
+								<li><a href="#">Data Integration</a></li>
+								<li><a href="#">Preview Employee</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="main-icon fa fa-envelope"></i>
+								<span class="label label-danger pull-right">5</span> <span>Inbox</span>
+							</a>
+						</li>
+					</ul>
+
+					<!-- SECOND MAIN LIST -->
+					<h3>SERVER STATS</h3>
+					<div class="sidebar-panel-content">
+						<div class="sidebar-stat">
+							<p>
+								<i class="fa fa-hdd-o"></i>Disk Space<span class="pull-right small">30%</span>
+							</p>
+							<div class="progress flat transparent progress-bar-xs">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                            </div>
+                            <span class="stats-usage text-center">3001.56 / 10000 MB</span>
+						</div>
+
+						<div class="sidebar-stat">
+							<p>
+								<i class="glyphicon glyphicon-transfer"></i>Bandwidth<span class="pull-right small">78%</span>
+							</p>
+							<div class="progress flat transparent progress-bar-xs">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;"></div>
+                            </div>
+                            <span class="stats-usage text-center">87565.12 / 120000 MB</span>
+						</div>
+					</div>
+
+				</nav>
+
+				<span id="asidebg"><!-- aside fixed background --></span>
+			</aside>
+			<!-- /ASIDE -->
+
+
+			<!-- HEADER -->
+			<header id="header">
+
+				<!-- Mobile Button -->
+				<button id="mobileMenuBtn"></button>
+
+				<!-- Logo -->
+				<span class="logo pull-left">
+					<!--<img src="assets/images/logo_with_text.png" alt="admin panel" height="35" />-->
+					<img src="assets/images/logo_with_text.png" alt="admin panel" height="20" style="margin-top:5px;" />
+				</span>
+
+				<!--<form method="get" action="page-search.html" class="search pull-left hidden-xs">
+					<input type="text" class="form-control" name="k" placeholder="Search for something..." />
+				</form>-->
+
+				<nav>
+
+					<!-- OPTIONS LIST -->
+					<ul class="nav pull-right">
+
+						<!-- USER OPTIONS -->
+						<li class="dropdown pull-left">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+								<img class="user-avatar" alt="" src="assets/images/avatars/adam.png" height="34" />
+								<span class="user-name">
+									<span class="hidden-xs">
+										Adam Mayer <i class="fa fa-angle-down"></i>
+									</span>
+								</span>
+							</a>
+							<ul class="dropdown-menu hold-on-click">
+								<li><!-- my inbox -->
+									<a href="#"><i class="fa fa-envelope"></i> Inbox
+										<span class="pull-right label label-danger">5</span>
+									</a>
+								</li>
+								<li><!-- settings -->
+									<a href="#"><i class="fa fa-cogs"></i> Settings</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li><!-- lockscreen -->
+									<a href="page-lock.html"><i class="fa fa-lock"></i> Lock Screen</a>
+								</li>
+								<li><!-- logout -->
+									<a href="page-login.html"><i class="fa fa-power-off"></i> Log Out</a>
+								</li>
+							</ul>
+						</li>
+						<!-- /USER OPTIONS -->
+
+					</ul>
+					<!-- /OPTIONS LIST -->
+
+				</nav>
+
+			</header>
+			<!-- /HEADER -->
+
+
+			<!--
+				MIDDLE
+			-->
+			<section id="middle">
+
+
+				<!-- page title -->
+				<header id="page-header">
+					<h1>Error 500</h1>
+				</header>
+				<!-- /page title -->
+
+
+				<div id="content" class="padding-20">
+
+					<div class="panel panel-default">
+						<div class="panel-body">
+
+							<p class="lead">
+								<span class="e404">500</span>
+								<strong>Oops!</strong> Something went wrong.<br />
+								We are fixing it! Please come back in a while.
+							</p>
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- /MIDDLE -->
+
+		</div>
+
+
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="assets/js/app.js"></script>
+
+	</body>
+</html>
