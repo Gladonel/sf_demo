@@ -62,7 +62,6 @@ body {
     background: #333;
     color: #FFF;
     text-shadow: none;
-    p
 }
 
 ::-moz-selection {
@@ -3913,8 +3912,7 @@ ul.list-hover>li .label>i {
     font-size: 25px;
     font-weight: 300;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    color: inherit;
-    !important;
+    color: inherit !important;
 }
 
 .widget-user .widget-user-desc {
